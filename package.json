@@ -1,0 +1,29 @@
+{
+  "name": "agy-usage-proxy",
+  "version": "1.0.0",
+  "description": "Zero-dependency local telemetry & reverse-proxy for Antigravity CLI and ACP",
+  "main": "index.js",
+  "bin": {
+    "agy-usage-proxy": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.js"
+  },
+  "keywords": [
+    "antigravity",
+    "gemini",
+    "telemetry",
+    "proxy",
+    "paseo"
+  ],
+  "author": "Davnn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Davnn1/agy-usage-proxy.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
